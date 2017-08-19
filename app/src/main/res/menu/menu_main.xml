@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="visionstech.menulearn.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_rateus"
+        android:orderInCategory="97"
+        android:title="@string/action_rateus"
+        app:showAsAction="never" />
+
+    <item
+    android:id="@+id/action_help"
+    android:orderInCategory="98"
+    android:title="@string/action_help"
+    app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="99"
+        android:title="@string/action_about"
+        app:showAsAction="never" />
+</menu>
